@@ -3,7 +3,7 @@ GPU passthrough ESXi with a single GPU, integrated graphics or another situation
 
 <p> Step 1: Install and configure ESXi
 <p> Step 2: Toggle passthrough for GPU to Active
-<p> Step 3: Create VM with GPU passthrough
+<p> Step 3: Create VM with GPU passthrough (and if we want, configure autostart)
 <p> Step 4: Enable SSH or Console
 <p> Step 5: Enter commands below
  
@@ -13,7 +13,7 @@ esxcli system settings kernel set -s vga -v FALSE
 ```
 <p> Step 6: Reboot
   
-From now you will no longer see ESXi yellow/black bootscren. Just a text like
+From now you will no longer see ESXi yellow/black bootscreen. Just a text like
  
 ```
 Shutting down firmware services...
