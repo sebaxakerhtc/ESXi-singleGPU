@@ -20,3 +20,8 @@ Shutting down firmware services...
 Relocating modules and starting up the kernel...
 ```
 Enjoy!
+
+P.S. You still can access interface of ESXi trough ssh
+```
+TERM=xterm
+dcui
